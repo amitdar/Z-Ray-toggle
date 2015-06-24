@@ -1,0 +1,19 @@
+{
+    "name": "Z-Ray Toggle",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Enable or disable Z-Ray for specific host",
+	"homepage_url": "https://github.com/amitdar/Z-Ray-toggle",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	  },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [ "cookies","<all_urls>"]
+}
